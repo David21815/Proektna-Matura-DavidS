@@ -1,0 +1,10 @@
+.custom-x{
+    margin-left: 50px;
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    font-weight: 700;
+  }
+  .custom-x:hover{
+    cursor: pointer;
+  }
