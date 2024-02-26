@@ -8,30 +8,30 @@ function Quiz() {
 
   const questions = [
     {
-      text: "What is the capital of America?",
+      text: "1. In which Italian city can you find the Colosseum?",
       options: [
-        { id: 0, text: "New York City", isCorrect: false },
-        { id: 1, text: "Boston", isCorrect: false },
-        { id: 2, text: "Santa Fe", isCorrect: false },
-        { id: 3, text: "Washington DC", isCorrect: true },
+        { id: 0, text: "Venice", isCorrect: false },
+        { id: 1, text: "Rome", isCorrect: true },
+        { id: 2, text: "Naples", isCorrect: false },
+        { id: 3, text: "Milan", isCorrect: false },
       ],
     },
     {
-      text: "What year was the Constitution of America written?",
+      text: "2. Which of the following tag represents the header of a section in HTML5?",
       options: [
-        { id: 0, text: "1787", isCorrect: true },
-        { id: 1, text: "1776", isCorrect: false },
-        { id: 2, text: "1774", isCorrect: false },
-        { id: 3, text: "1826", isCorrect: false },
+        { id: 0, text: "section", isCorrect: false },
+        { id: 1, text: "article", isCorrect: false },
+        { id: 2, text: "aside", isCorrect: false },
+        { id: 3, text: "header", isCorrect: true },
       ],
     },
     {
-      text: "Who was the second president of the US?",
+      text: "3. What is the longest river in the world?",
       options: [
-        { id: 0, text: "John Adams", isCorrect: true },
-        { id: 1, text: "Paul Revere", isCorrect: false },
-        { id: 2, text: "Thomas Jefferson", isCorrect: false },
-        { id: 3, text: "Benjamin Franklin", isCorrect: false },
+        { id: 0, text: "Amazon river", isCorrect: true },
+        { id: 1, text: "Nile", isCorrect: false },
+        { id: 2, text: "Yellow river", isCorrect: false },
+        { id: 3, text: "Congo river", isCorrect: false },
       ],
     },
     {

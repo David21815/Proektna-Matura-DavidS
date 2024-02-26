@@ -8,7 +8,7 @@ function LinksNavbar(){
             <Link className="text-base hover:bg-[#FFFFD2] p-2 transition duration-300 ease-in-out rounded-full global-font" to='/'>
             Homepage
             </Link>
-            <Link className="text-base hover:bg-[#FFFFD2] p-2 transition duration-300 ease-in-out rounded-full global-font" to='/quiz'>
+            <Link className="text-base hover:bg-[#FFFFD2] p-2 transition duration-300 ease-in-out rounded-full global-font" to='/start'>
             Start
             </Link>
             <Link className="text-base hover:bg-[#FFFFD2] p-2 transition duration-300 ease-in-out rounded-full global-font" to='/membership'>

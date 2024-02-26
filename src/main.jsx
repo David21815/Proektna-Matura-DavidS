@@ -3,8 +3,9 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import App from "./App";
-import Quiz from "./Quiz";
+import Quiz from "./Quizzes/Quiz";
 import Start from "./Start/Start"
+import Membership from "./Membership/Membership";
 import "./index.css"
 
 const router = createBrowserRouter([
@@ -15,6 +16,7 @@ const router = createBrowserRouter([
       { path: "/", element: <App /> },
       { path: "/quiz", element: <Quiz /> },
       { path: "/start", element: <Start /> },
+      { path: "/membership", element: <Membership /> },
     ],
   },
 ]);
