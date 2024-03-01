@@ -1,0 +1,29 @@
+function GrowthSVG() {
+  return (
+    <>
+      <svg
+        class="w-[35px] h-[35px] md:w-[50px] md:h-[50px]"
+        viewBox="0 0 51 50"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M45.571 12.006 27.046 30.531l-7.719-7.718L5.434 36.706"
+          stroke="#AA96DA"
+          stroke-width="4.341"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        ></path>
+        <path
+          d="M45.569 24.356v-12.35h-12.35"
+          stroke="#AA96DA"
+          stroke-width="4.341"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        ></path>
+      </svg>
+    </>
+  );
+}
+
+export default GrowthSVG;

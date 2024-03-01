@@ -1,9 +1,8 @@
 import CheckSVG from "./CheckSVG";
-import GrayCheckSGV from "./GrayCheckSVG";
 import PopUp from "./PopUp";
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
-function Bronze() {
+function Diamond() {
   const [isPopUpVisible, setIsPopUpVisible] = useState(false);
 
   const handleChoosePlanClick = () => {
@@ -16,7 +15,7 @@ function Bronze() {
   return (
     <>
       <div
-        className="mt-[0.75em] rounded-2xl p-[10px] bg-[#fff] text-[#697e91] max-w-[300px] border-4 border-[#CD7F32]"
+        className="mt-[0.75em] rounded-2xl p-[10px] bg-[#fff] text-[#697e91] max-w-[300px] border-4 border-[#1db2d3]"
         style={{ boxShadow: "0 30px 30px -25px rgba(0, 38, 255, 0.205)" }}
       >
         <div className="pt-10 p-5 bg-[#ecf0ff] relative rounded-2xl">
@@ -24,15 +23,15 @@ function Bronze() {
             className="absolute top-0 right-0 bg-[#bed6fb] flex items-center text-[1.25rem] font-semibold text-[#425475] px-[0.75em] py-[0.625em]"
             style={{ borderRadius: "99em 0 0 99em" }}
           >
-            $19
+            $99
             <small class="text-[#707a91] text-[0.75em] ms-[0.25em]">/ m</small>
           </span>
           <p class="font-semibold text-[1.25rem] text-[#425675] mt-[0.75em]">
-            Amateur
+            Competitive
           </p>
           <p class="info">
-            This plan is for those who have are just starting the game and need
-            some help.
+            This plan is for those who want to compete and take the game to the
+            highest level.
           </p>
           <ul className="flex flex-col mt-[1rem]">
             <li className="flex items-center gap-[0.5rem]">
@@ -55,36 +54,36 @@ function Bronze() {
             </li>
             <li className="flex items-center gap-[0.5rem] mt-[0.75rem]">
               <span>
-                <GrayCheckSGV />
+                <CheckSVG />
               </span>
-              <span className="flex line-through items-center">
+              <span>
                 <strong class="text-[#425275] font-semibold">100</strong>
                 &nbsp;points for solved quiz
               </span>
             </li>
             <li className="flex items-center gap-[0.5rem] mt-[0.75rem]">
               <span>
-                <GrayCheckSGV />
+                <CheckSVG />
               </span>
-              <span className="flex line-through items-center">
+              <span>
                 <strong class="text-[#425275] font-semibold">5</strong>
                 &nbsp;free hints
               </span>
             </li>
             <li className="flex items-center gap-[0.5rem] mt-[0.75rem]">
               <span>
-                <GrayCheckSGV />
+                <CheckSVG />
               </span>
-              <span className="flex line-through items-center">
+              <span>
                 <strong class="text-[#425275] font-semibold">1</strong>
                 &nbsp;free reward every day
               </span>
             </li>
             <li className="flex items-center gap-[0.5rem] mt-[0.75rem]">
               <span>
-                <GrayCheckSGV />
+                <CheckSVG />
               </span>
-              <span className="flex line-through items-center">
+              <span>
                 <strong class="text-[#425275] font-semibold">3</strong>
                 &nbsp;attempts for each quiz
               </span>
@@ -105,4 +104,4 @@ function Bronze() {
   );
 }
 
-export default Bronze;
+export default Diamond;

@@ -12,7 +12,7 @@ function LinksNavbar(){
             Start
             </Link>
             <Link className="text-base hover:bg-[#FFFFD2] p-2 transition duration-300 ease-in-out rounded-full global-font" to='/membership'>
-            Membership{/* https://flowbite.com/docs/components/card/ */}
+            Membership
             </Link>
             <Link className="text-base hover:bg-[#FFFFD2] p-2 transition duration-300 ease-in-out rounded-full global-font" to='/leaderboards'>
             Leaderboards

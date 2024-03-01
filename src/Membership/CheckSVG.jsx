@@ -2,7 +2,7 @@ function CheckSVG() {
   return (
     <>
       <svg
-        class="flex-shrink-0 w-4 h-4 text-blue-700 dark:text-blue-500"
+        class="flex-shrink-0 w-[23px] h-[23px] text-blue-700 dark:text-blue-500"
         aria-hidden="true"
         xmlns="http://www.w3.org/2000/svg"
         fill="currentColor"
