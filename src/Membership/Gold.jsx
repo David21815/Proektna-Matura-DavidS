@@ -28,11 +28,11 @@ function Gold() {
             <small class="text-[#707a91] text-[0.75em] ms-[0.25em]">/ m</small>
           </span>
           <p class="font-semibold text-[1.25rem] text-[#425675] mt-[0.75em]">
-            Profesional
+            Професионален
           </p>
           <p class="info">
-            This plan is for those who are more experienced and want to have
-            more fun.
+            Овој план е за оние кои се поискусни и сакаат да имаат повеќе
+            забава.
           </p>
           <ul className="flex flex-col mt-[1rem]">
             <li className="flex items-center gap-[0.5rem]">
@@ -41,7 +41,7 @@ function Gold() {
               </span>
               <span>
                 <strong class="text-[#425275] font-semibold">5</strong>
-                &nbsp;different quizzes a day
+                &nbsp;различни квизови на ден
               </span>
             </li>
             <li className="flex items-center gap-[0.5rem] mt-[0.75rem]">
@@ -50,7 +50,7 @@ function Gold() {
               </span>
               <span>
                 <strong class="text-[#425275] font-semibold">5</strong>
-                &nbsp;daily puzzles
+                &nbsp;дневни загатки
               </span>
             </li>
             <li className="flex items-center gap-[0.5rem] mt-[0.75rem]">
@@ -59,7 +59,7 @@ function Gold() {
               </span>
               <span>
                 <strong class="text-[#425275] font-semibold">100</strong>
-                &nbsp;points for solved quiz
+                &nbsp;поени за решен квиз
               </span>
             </li>
             <li className="flex items-center gap-[0.5rem] mt-[0.75rem]">
@@ -68,7 +68,7 @@ function Gold() {
               </span>
               <span>
                 <strong class="text-[#425275] font-semibold">5</strong>
-                &nbsp;free hints
+                &nbsp;бесплатни совети
               </span>
             </li>
             <li className="flex items-center gap-[0.5rem] mt-[0.75rem]">
@@ -77,7 +77,7 @@ function Gold() {
               </span>
               <span className="flex line-through items-center">
                 <strong class="text-[#425275] font-semibold">1</strong>
-                &nbsp;free reward every day
+                &nbsp;бесплатна награда
               </span>
             </li>
             <li className="flex items-center gap-[0.5rem] mt-[0.75rem]">
@@ -86,7 +86,7 @@ function Gold() {
               </span>
               <span className="flex line-through items-center">
                 <strong class="text-[#425275] font-semibold">3</strong>
-                &nbsp;attempts for each quiz
+                &nbsp;обиди за секој квиз
               </span>
             </li>
           </ul>
@@ -95,7 +95,7 @@ function Gold() {
               onClick={handleChoosePlanClick}
               className="bg-[#6558d3] hover:bg-[#aa96da] border-2 border-[#fff] hover:border-[#6558d3] rounded-md text-white font-medium text-[1.125rem] text-center w-full px-[0.75em] py-[0.625em]"
             >
-              Choose plan
+              Одбери план
             </button>
           </div>
         </div>

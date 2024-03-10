@@ -25,11 +25,11 @@ function PopUp({ onClose }) {
             </div>
             <div className="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
               <h3 className="text-lg leading-6 font-medium text-gray-900">
-                Membership purchase
+              Купување членство
               </h3>
               <div className="mt-2">
                 <p className="text-sm leading-5 text-gray-500">
-                  Are you sure you want to purchase our membership.
+                Дали сте сигурни дека сакате да го купите нашето членство.
                 </p>
               </div>
             </div>
@@ -41,7 +41,7 @@ function PopUp({ onClose }) {
                 type="button"
                 className="inline-flex justify-center w-full rounded-md border border-transparent px-4 py-2 bg-green-600 text-base leading-6 font-medium text-white shadow-sm hover:bg-green-500 focus:outline-none focus:shadow-outline-green transition ease-in-out duration-150 sm:text-sm sm:leading-5"
               >
-                Accept
+                Прифати
               </button>
             </span>
             <span className="mt-3 flex w-full rounded-md shadow-sm sm:mt-0 sm:w-auto">
@@ -50,7 +50,7 @@ function PopUp({ onClose }) {
                 type="button"
                 className="inline-flex justify-center w-full rounded-md border border-gray-300 px-4 py-2 bg-white text-base leading-6 font-medium text-gray-700 shadow-sm hover:text-gray-500 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue transition ease-in-out duration-150 sm:text-sm sm:leading-5"
               >
-                Cancel
+                Откажи
               </button>
             </span>
           </div>

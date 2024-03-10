@@ -1,6 +1,6 @@
 import CheckSVG from "./CheckSVG";
 import PopUp from "./PopUp";
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 function Diamond() {
   const [isPopUpVisible, setIsPopUpVisible] = useState(false);
@@ -27,11 +27,10 @@ function Diamond() {
             <small class="text-[#707a91] text-[0.75em] ms-[0.25em]">/ m</small>
           </span>
           <p class="font-semibold text-[1.25rem] text-[#425675] mt-[0.75em]">
-            Competitive
+            Најдобриот
           </p>
           <p class="info">
-            This plan is for those who want to compete and take the game to the
-            highest level.
+            Овој план е за оние кои сакаат да се натпреваруваат и да играат на високо ниво.
           </p>
           <ul className="flex flex-col mt-[1rem]">
             <li className="flex items-center gap-[0.5rem]">
@@ -40,7 +39,7 @@ function Diamond() {
               </span>
               <span>
                 <strong class="text-[#425275] font-semibold">5</strong>
-                &nbsp;different quizzes a day
+                &nbsp;различни квизови на ден
               </span>
             </li>
             <li className="flex items-center gap-[0.5rem] mt-[0.75rem]">
@@ -49,7 +48,7 @@ function Diamond() {
               </span>
               <span>
                 <strong class="text-[#425275] font-semibold">5</strong>
-                &nbsp;daily puzzles
+                &nbsp;дневни загатки
               </span>
             </li>
             <li className="flex items-center gap-[0.5rem] mt-[0.75rem]">
@@ -58,7 +57,7 @@ function Diamond() {
               </span>
               <span>
                 <strong class="text-[#425275] font-semibold">100</strong>
-                &nbsp;points for solved quiz
+                &nbsp;поени за решен квиз
               </span>
             </li>
             <li className="flex items-center gap-[0.5rem] mt-[0.75rem]">
@@ -67,7 +66,7 @@ function Diamond() {
               </span>
               <span>
                 <strong class="text-[#425275] font-semibold">5</strong>
-                &nbsp;free hints
+                &nbsp;бесплатни совети
               </span>
             </li>
             <li className="flex items-center gap-[0.5rem] mt-[0.75rem]">
@@ -76,7 +75,7 @@ function Diamond() {
               </span>
               <span>
                 <strong class="text-[#425275] font-semibold">1</strong>
-                &nbsp;free reward every day
+                &nbsp;бесплатна награда
               </span>
             </li>
             <li className="flex items-center gap-[0.5rem] mt-[0.75rem]">
@@ -85,7 +84,7 @@ function Diamond() {
               </span>
               <span>
                 <strong class="text-[#425275] font-semibold">3</strong>
-                &nbsp;attempts for each quiz
+                &nbsp;обиди за секој квиз
               </span>
             </li>
           </ul>
@@ -94,7 +93,7 @@ function Diamond() {
               onClick={handleChoosePlanClick}
               className="bg-[#6558d3] hover:bg-[#aa96da] border-2 border-[#fff] hover:border-[#6558d3] rounded-md text-white font-medium text-[1.125rem] text-center w-full px-[0.75em] py-[0.625em]"
             >
-              Choose plan
+              Одбери план
             </button>
           </div>
         </div>

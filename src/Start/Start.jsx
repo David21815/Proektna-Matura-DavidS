@@ -12,18 +12,18 @@ function Start() {
       >
         <div className="card">
           <div className="content-box">
-            <h1 className="card-title">Classic Quiz</h1>
+            <h1 className="card-title">Класичен квиз</h1>
             <p className="card-content">
-              Explore history, science, arts, and more in our classic trivia
-              quiz. Ignite curiosity and friendly competition, uniting in a
-              quest for diverse knowledge and shared wisdom.
+              Истражете ја историјата, науката, уметноста и многу повеќе во
+              нашите класични Trivia квизови. Поттикни љубопитност и пријателска
+              конкуренција, обединувајќи се да стекнете знаење и мудрост.
             </p>
             <Link to="/quiz" className="see-more">
-              See More
+              Види повеќе
             </Link>
           </div>
           <div className="date-box">
-            <span className="month">Points</span>
+            <span className="month">Поени</span>
             <span className="date">100</span>
           </div>
         </div>
@@ -39,18 +39,18 @@ function Start() {
       >
         <div className="card2">
           <div className="content-box">
-            <h1 className="card-title">Tech Quiz</h1>
+            <h1 className="card-title">Техно-квиз</h1>
             <p className="card-content">
-              Dive into tech wonders in our quiz—coding, AI, cybersecurity and
-              gadgets. Spark curiosity and friendly competition. Join the
-              journey of knowledge and camaraderie.
+              Нурнете во технолошките чуда во нашиот квиз - кодирање, вештачка
+              интелигенција, сајбер безбедност и гаџети, поттикнувајќи искра
+              љубопитност и пријателска конкуренција помеѓу учесниците.
             </p>
             <Link to="/quiz" className="see-more">
-              See More
+              Види повеќе
             </Link>
           </div>
           <div className="date-box">
-            <span className="month">Points</span>
+            <span className="month">Поени</span>
             <span className="date">100</span>
           </div>
         </div>
@@ -66,18 +66,18 @@ function Start() {
       >
         <div className="card3">
           <div className="content-box">
-            <h1 className="card-title">Sports quiz</h1>
+            <h1 className="card-title">Спортски квиз</h1>
             <p className="card-content">
-              Dive into the world of sports in our quiz—teams, players, and
-              legendary moments. Ignite curiosity and friendly competition. Join
-              the journey of sports knowledge and camaraderie.
+              Нурнете во светот на спортот во нашиот квиз - тимови, играчи и
+              легендарни моменти. Поттикни љубопитност и пријателска
+              конкуренција. Приклучи се патувањето на спортското знаење.
             </p>
             <Link to="/quiz" className="see-more">
-              See More
+              Види повеќе
             </Link>
           </div>
           <div className="date-box">
-            <span className="month">Points</span>
+            <span className="month">Поени</span>
             <span className="date">100</span>
           </div>
         </div>
@@ -93,18 +93,17 @@ function Start() {
       >
         <div className="card4">
           <div className="content-box">
-            <h1 className="card-title">Nature Quiz</h1>
+            <h1 className="card-title">Квиз за природата</h1>
             <p className="card-content">
-              Discover nature's wonders in our quiz, exploring biodiversity,
-              ecosystems, and geological marvels, fostering curiosity and
-              friendly competition among participants.
+              Откријте ги чудата на природата во нашиот квиз, истражувајќи ја
+              биолошката разновидност, екосистемите и геолошките чуда.
             </p>
             <Link to="/quiz" className="see-more">
-              See More
+              Види повеќе
             </Link>
           </div>
           <div className="date-box">
-            <span className="month">Points</span>
+            <span className="month">Поени</span>
             <span className="date">100</span>
           </div>
         </div>

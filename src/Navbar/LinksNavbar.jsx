@@ -6,19 +6,19 @@ function LinksNavbar(){
         <>
         <div className="py-3 gap-6 items-center hidden lg:flex">
             <Link className="text-base hover:bg-[#FFFFD2] p-2 transition duration-300 ease-in-out rounded-full global-font" to='/'>
-            Homepage
+            Почетна
             </Link>
             <Link className="text-base hover:bg-[#FFFFD2] p-2 transition duration-300 ease-in-out rounded-full global-font" to='/start'>
-            Start
+            Започни
             </Link>
             <Link className="text-base hover:bg-[#FFFFD2] p-2 transition duration-300 ease-in-out rounded-full global-font" to='/membership'>
-            Membership
+            Членство
             </Link>
             <Link className="text-base hover:bg-[#FFFFD2] p-2 transition duration-300 ease-in-out rounded-full global-font" to='/leaderboards'>
-            Leaderboards
+            Табели
             </Link>
             <Link className="text-base hover:bg-[#FFFFD2] p-2 transition duration-300 ease-in-out rounded-full global-font" to='/login'>
-            Login
+            Најави се
             </Link>
         </div>
         </>

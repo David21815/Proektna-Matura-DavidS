@@ -8,7 +8,7 @@ function Stats() {
     <>
       <section class="flex flex-col mt-20">
         <h1 class="xl:text-5xl md:text-4xl text-2xl font-semibold leading-tight text-center text-black sm:mb-0 mb-3">
-          Here Are Some Of The App's Achievements
+        Еве некои од достигнувањата на апликацијата
         </h1>
         <div class="mt-10 grid grid-cols-2 lg:grid-cols-4 gap-y-5 lg:gap-y-0 gap-x-5 place-items-center w-full mx-auto max-w-7xl px-5">
           <div class="flex flex-col justify-center items-center bg-[#FFF6F3] px-4 h-[126px] w-[100%] md:w-[281px] md:h-[192px] rounded-lg justify-self-center">
@@ -19,7 +19,7 @@ function Stats() {
               </p>
             </div>
             <p class="font-medium text-base sm:text-lg leading-6 mt-3 md:mt-6 text-center">
-              Achievements completed
+              Завршени предизвици
             </p>
           </div>
           <div class="flex flex-col justify-center items-center bg-[#FFF6F3] px-4 h-[126px] w-[100%] md:w-[281px] md:h-[192px] rounded-lg justify-self-center">
@@ -30,7 +30,7 @@ function Stats() {
               </p>
             </div>
             <p class="font-medium text-base sm:text-lg leading-6 mt-3 md:mt-6 text-center">
-              Average Player Rating
+            Просечен рејтинг на играч
             </p>
           </div>
           <div class="flex flex-col justify-center items-center bg-[#FFF6F3] px-4 h-[126px] w-[100%] md:w-[281px] md:h-[192px] rounded-lg justify-self-center">
@@ -41,7 +41,7 @@ function Stats() {
               </p>
             </div>
             <p class="font-medium text-base sm:text-lg leading-6 mt-3 md:mt-6 text-center">
-              Quizzes Completed
+              Завршени квизови
             </p>
           </div>
           <div class="flex flex-col justify-center items-center bg-[#FFF6F3] px-4 h-[126px] w-[100%] md:w-[281px] md:h-[192px] rounded-lg justify-self-center">
@@ -52,7 +52,7 @@ function Stats() {
               </p>
             </div>
             <p class="font-medium text-base sm:text-lg leading-6 mt-3 md:mt-6 text-center">
-              App Downloads
+              Превземања
             </p>
           </div>
         </div>

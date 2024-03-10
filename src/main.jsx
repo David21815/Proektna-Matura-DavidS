@@ -10,6 +10,7 @@ import "./index.css"
 import ErrorPage from "./404/ErrorPage";
 import Leaderboards from "./Leaderboards/Leaderboards";
 import Login from "./Login/Login";
+import Success from "./Login/Success";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,7 @@ const router = createBrowserRouter([
       { path: "/leaderboards", element: <Leaderboards /> },
       { path: "/login", element: <Login /> },
       { path: '*', element: <ErrorPage /> },
+      { path: 'success', element: <Success /> },
     ],
   },
 ]);

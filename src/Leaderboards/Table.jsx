@@ -3,23 +3,23 @@ function Table() {
     <>
       <div className="flex flex-col justify-center items-center py-[80px] px-4">
         <h1 class="xl:text-5xl md:text-4xl text-2xl font-semibold leading-tight text-center text-black sm:mb-0 mb-3 pb-[40px]">
-          Leaderboards
+          Табели
         </h1>
         <div className="relative overflow-x-auto w-full max-w-[1210px]">
           <table className="w-full text-sm text-left rtl:text-right text-gray-400">
             <thead className="text-xs uppercase text-gray-400">
               <tr>
                 <th scope="col" className="px-6 py-3 text-black font-bold">
-                  Name
+                  Име
                 </th>
                 <th scope="col" className="px-6 py-3 text-black font-bold">
-                  Hours played
+                  Поминати часови
                 </th>
                 <th scope="col" className="px-6 py-3 text-black font-bold">
-                  Quizzes completed
+                  Завршени квизови
                 </th>
                 <th scope="col" className="px-6 py-3 text-black font-bold">
-                  Points
+                  Поени
                 </th>
               </tr>
             </thead>
@@ -34,7 +34,7 @@ function Table() {
                 </th>
                 <td className="px-6 py-4 text-black font-medium">129 hr</td>
                 <td className="px-6 py-4 text-black font-medium">
-                  170 quizzes
+                  170 квизови
                 </td>
                 <td className="px-6 py-4 text-black font-medium">20400</td>
               </tr>
@@ -48,7 +48,7 @@ function Table() {
                 </th>
                 <td className="px-6 py-4 text-black font-medium">120 hr</td>
                 <td className="px-6 py-4 text-black font-medium">
-                  168 quizzes
+                  168 квизови
                 </td>
                 <td className="px-6 py-4 text-black font-medium">20100</td>
               </tr>
@@ -62,7 +62,7 @@ function Table() {
                 </th>
                 <td className="px-6 py-4 text-black font-medium">115 hr</td>
                 <td className="px-6 py-4 text-black font-medium">
-                  164 quizzes
+                  164 квизови
                 </td>
                 <td className="px-6 py-4 text-black font-medium">19900</td>
               </tr>
@@ -75,7 +75,7 @@ function Table() {
                 </th>
                 <td className="px-6 py-4 text-black font-medium">112 hr</td>
                 <td className="px-6 py-4 text-black font-medium">
-                  160 quizzes
+                  160 квизови
                 </td>
                 <td className="px-6 py-4 text-black font-medium">19800</td>
               </tr>
@@ -88,7 +88,7 @@ function Table() {
                 </th>
                 <td className="px-6 py-4 text-black font-medium">119 hr</td>
                 <td className="px-6 py-4 text-black font-medium">
-                  158 quizzes
+                  158 квизови
                 </td>
                 <td className="px-6 py-4 text-black font-medium">19500</td>
               </tr>
@@ -101,7 +101,7 @@ function Table() {
                 </th>
                 <td className="px-6 py-4 text-black font-medium">113 hr</td>
                 <td className="px-6 py-4 text-black font-medium">
-                  154 quizzes
+                  154 квизови
                 </td>
                 <td className="px-6 py-4 text-black font-medium">19000</td>
               </tr>
@@ -114,7 +114,7 @@ function Table() {
                 </th>
                 <td className="px-6 py-4 text-black font-medium">109 hr</td>
                 <td className="px-6 py-4 text-black font-medium">
-                  140 quizzes
+                  140 квизови
                 </td>
                 <td className="px-6 py-4 text-black font-medium">18400</td>
               </tr>
@@ -127,7 +127,7 @@ function Table() {
                 </th>
                 <td className="px-6 py-4 text-black font-medium">108 hr</td>
                 <td className="px-6 py-4 text-black font-medium">
-                  139 quizzes
+                  139 квизови
                 </td>
                 <td className="px-6 py-4 text-black font-medium">18300</td>
               </tr>
@@ -140,7 +140,7 @@ function Table() {
                 </th>
                 <td className="px-6 py-4 text-black font-medium">101 hr</td>
                 <td className="px-6 py-4 text-black font-medium">
-                  130 quizzes
+                  130 квизови
                 </td>
                 <td className="px-6 py-4 text-black font-medium">17400</td>
               </tr>
@@ -153,7 +153,7 @@ function Table() {
                 </th>
                 <td className="px-6 py-4 text-black font-medium">98 hr</td>
                 <td className="px-6 py-4 text-black font-medium">
-                  127 quizzes
+                  127 квизови
                 </td>
                 <td className="px-6 py-4 text-black font-medium">16900</td>
               </tr>
