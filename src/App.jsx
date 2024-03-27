@@ -17,7 +17,7 @@ function App() {
                 активни играчи!
               </p>
               <Link
-                to="/quiz"
+                to="/test-quiz"
                 className="py-[9px] px-[14px] w-[115px] bg-[#6E026E] text-base border border-[#6E026E] hover:border-black hover:bg-[#AA96DA] hover:text-black box-border rounded-lg text-white font-semibold mt-4 transition duration-300 ease-in-out"
               >
                 Тестирај се

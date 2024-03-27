@@ -19,7 +19,7 @@ function Start() {
               конкуренција, обединувајќи се да стекнете знаење и мудрост.
             </p>
             <Link to="/quiz" className="see-more">
-              Види повеќе
+              Започни со квизот
             </Link>
           </div>
           <div className="date-box">
@@ -45,8 +45,8 @@ function Start() {
               интелигенција, сајбер безбедност и гаџети, поттикнувајќи искра
               љубопитност и пријателска конкуренција помеѓу учесниците.
             </p>
-            <Link to="/quiz" className="see-more">
-              Види повеќе
+            <Link to="/tech-quiz" className="see-more">
+              Започни со квизот
             </Link>
           </div>
           <div className="date-box">
@@ -72,8 +72,8 @@ function Start() {
               легендарни моменти. Поттикни љубопитност и пријателска
               конкуренција. Приклучи се патувањето на спортското знаење.
             </p>
-            <Link to="/quiz" className="see-more">
-              Види повеќе
+            <Link to="/sports-quiz" className="see-more">
+              Започни со квизот
             </Link>
           </div>
           <div className="date-box">
@@ -98,8 +98,8 @@ function Start() {
               Откријте ги чудата на природата во нашиот квиз, истражувајќи ја
               биолошката разновидност, екосистемите и геолошките чуда.
             </p>
-            <Link to="/quiz" className="see-more">
-              Види повеќе
+            <Link to="/nature-quiz" className="see-more">
+              Започни со квизот
             </Link>
           </div>
           <div className="date-box">

@@ -11,6 +11,11 @@ import ErrorPage from "./404/ErrorPage";
 import Leaderboards from "./Leaderboards/Leaderboards";
 import Login from "./Login/Login";
 import Success from "./Login/Success";
+import TestCard from "./Login/TestCard";
+import TechQuiz from "./Quizzes/TechQuiz";
+import SportsQuiz from "./Quizzes/SportsQuiz";
+import NatureQuiz from "./Quizzes/NatureQuiz";
+import TestQuiz from "./Quizzes/TestQuiz";
 
 const router = createBrowserRouter([
   {
@@ -19,12 +24,17 @@ const router = createBrowserRouter([
     children: [
       { path: "/", element: <App /> },
       { path: "/quiz", element: <Quiz /> },
+      { path: "/tech-quiz", element: <TechQuiz /> },
+      { path: "/sports-quiz", element: <SportsQuiz /> },
+      { path: "/nature-quiz", element: <NatureQuiz /> },
+      { path: "/test-quiz", element: <TestQuiz /> },
       { path: "/start", element: <Start /> },
       { path: "/membership", element: <Membership /> },
       { path: "/leaderboards", element: <Leaderboards /> },
       { path: "/login", element: <Login /> },
       { path: '*', element: <ErrorPage /> },
       { path: 'success', element: <Success /> },
+      { path: 'testcard', element: <TestCard /> },
     ],
   },
 ]);
