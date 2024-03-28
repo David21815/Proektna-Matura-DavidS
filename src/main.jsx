@@ -16,6 +16,8 @@ import TechQuiz from "./Quizzes/TechQuiz";
 import SportsQuiz from "./Quizzes/SportsQuiz";
 import NatureQuiz from "./Quizzes/NatureQuiz";
 import TestQuiz from "./Quizzes/TestQuiz";
+import PrivacyPolicy from "./PrivacyPolicy/PrivacyPolicy";
+import TermsOfCondition from "./TermsOfCondition/TermsOfCondition";
 
 const router = createBrowserRouter([
   {
@@ -35,6 +37,8 @@ const router = createBrowserRouter([
       { path: '*', element: <ErrorPage /> },
       { path: 'success', element: <Success /> },
       { path: 'testcard', element: <TestCard /> },
+      { path: '/privacy-policy', element: <PrivacyPolicy /> },
+      { path: '/terms-of-condition', element: <TermsOfCondition /> },
     ],
   },
 ]);

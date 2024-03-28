@@ -1,4 +1,5 @@
 import Logo from "../Navbar/Logo";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -56,14 +57,14 @@ function Footer() {
                 </h2>
                 <ul class="text-[#FFFFD2] font-medium">
                   <li class="mb-4">
-                    <a href="#" class="hover:underline">
+                    <Link to="/privacy-policy" class="hover:underline">
                       Политика за приватност
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" class="hover:underline">
+                    <Link to="/terms-of-condition" class="hover:underline">
                       Правила &amp; Услови
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>

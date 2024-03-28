@@ -10,10 +10,10 @@ function SportsQuiz() {
     {
       text: "1. Кој е најдобриот стрелец на сите времиња во историјата на англиската Премиер лига?",
       options: [
-        { id: 0, text: "Alan Shearer – 260 гола", isCorrect: true },
-        { id: 1, text: "Wayne Rooney – 208 гола", isCorrect: false },
-        { id: 2, text: "Andrew Cole – 187 гола", isCorrect: false },
-        { id: 3, text: "Sergio Aguero – 184 гола", isCorrect: false },
+        { id: 0, text: "Alan Shearer", isCorrect: true },
+        { id: 1, text: "Wayne Rooney", isCorrect: false },
+        { id: 2, text: "Andrew Cole", isCorrect: false },
+        { id: 3, text: "Sergio Aguero", isCorrect: false },
       ],
     },
     {
