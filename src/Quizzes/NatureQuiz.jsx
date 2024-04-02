@@ -205,7 +205,7 @@ function NatureQuiz() {
                 {questions[currentQuestion].options.map((option) => {
                   return (
                     <li
-                      className="bg-[#FFFFD2] text-[#FF4500] font-medium border-2 border-blue-800 w-full p-[10px] my-[15px] text-left cursor-pointer rounded-xl transition duration-300 ease-in-out hover:bg-[#FFA500] hover:text-white"
+                      className="bg-[#FFFFD2] text-[#FF4500] font-medium border-2 border-blue-800 w-full p-[10px] my-[15px] text-left cursor-pointer rounded-xl transition duration-300 ease-in-out hover:bg-[#FFFFD2] md:hover:bg-[#FFA500] md:hover:text-white"
                       key={option.id}
                       onClick={() => optionClicked(option.isCorrect)}
                     >
